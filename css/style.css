@@ -3,6 +3,7 @@ body {
   padding: 40px;
   font-family: "Lucida Sans", sans-serif;
 }
+
 .container {
   display: flex;
   width: 1200px;
@@ -10,6 +11,14 @@ body {
   margin-right: auto;
 
   background-color: #fff;
+}
+.creativity {
+   width: 588px;
+   height: 120px;
+
+}
+.creativity_top{
+  margin-top: 100px;
 }
 
 .bio,
@@ -30,8 +39,8 @@ body {
   font-size: 45px;
   line-height: 2;
   margin-bottom: 20px;
-  margin-top: 50px;
-  color: #2a2a2a;
+  margin-top: 100px;
+  color: #4c4f6e;
 }
 
 .bio-occupation {
@@ -66,22 +75,52 @@ body {
   color: #83aada;
 }
 
+.learn-title {
+	font-size : 22px;
+	color : #424244;
+	color : rgb(66, 66, 68);
+} 
+.learn-upper {
+	font-size : 14px;
+	color : #828282;
+  font-style: italic;
+} 
+.learn-upper2 {
+	font-size : 14px;
+	color : #3d5572;
+  font-style: italic;
+} 
+.learn-middle {
+  font-size: 16px;
+  color : #828282;
+  font-style: normal;
+}
+.learn-text {
+	font-size : 16px;
+	color : #424244;
+	color : rgb(66, 66, 68);
+} 
+
 .jobs-title,
-.education-title {
+.education-title,
+.learning {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 1.091;
 }
 
 .jobs-occupation,
-.education-degree {
+.education-degree,
+.learn-title
+{
   color: #2a2a2a;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .jobs-time,
-.education-time {
+.education-time,
+.learn-middle {
   color: #828282;
   font-size: 12px;
   line-height: 2;
@@ -97,11 +136,25 @@ body {
   color: #83aada;
 }
 
+.accent2 {
+  color: #83aada;
+  font-size: 14px;
+}
+.box {
+  position:absolute;
+  width:1200px
+  height: 170px;
+  color:#83aada;
+padding-top:50px;
+opacity: 50%;
+
+
+}
 /* ========= left-side ========= */
 
 .left-side {
   width: 370px;
-  background-color: #d2d3d5;
+  background-color: #fff;
   color: #fff;
 }
 
@@ -129,7 +182,7 @@ body {
 
 .photo {
   width: 250px;
-  padding-left: 20px;
+
 }
 
 .photo,
