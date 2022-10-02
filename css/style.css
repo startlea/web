@@ -3,7 +3,6 @@ body {
   padding: 40px;
   font-family: "Lucida Sans", sans-serif;
 }
-
 .container {
   display: flex;
   width: 1200px;
@@ -11,14 +10,6 @@ body {
   margin-right: auto;
 
   background-color: #fff;
-}
-.creativity {
-   width: 588px;
-   height: 120px;
-
-}
-.creativity_top{
-  margin-top: 100px;
 }
 
 .bio,
@@ -39,8 +30,8 @@ body {
   font-size: 45px;
   line-height: 2;
   margin-bottom: 20px;
-  margin-top: 100px;
-  color: #4c4f6e;
+  margin-top: 50px;
+  color: #2a2a2a;
 }
 
 .bio-occupation {
@@ -154,7 +145,7 @@ opacity: 50%;
 
 .left-side {
   width: 370px;
-  background-color: #fff;
+  background-color: #d2d3d5;
   color: #fff;
 }
 
@@ -182,7 +173,7 @@ opacity: 50%;
 
 .photo {
   width: 250px;
-
+  padding-left: 20px;
 }
 
 .photo,
